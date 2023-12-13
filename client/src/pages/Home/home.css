@@ -1,0 +1,79 @@
+.home-main {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.home-nav {
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.nav-logout-btn {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.home-form-container {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.home-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.home-form-container form input {
+  height: 2rem;
+  border-radius: 5px;
+  border: 1px solid rgb(29, 155, 240);
+  padding-left: 0.8rem;
+  letter-spacing: 0.8px;
+}
+
+.post-btn-container {
+  display: flex;
+  justify-content: end;
+}
+
+.post-btn {
+  height: 2rem;
+  width: 4rem;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+}
+
+.post-loader {
+  width: 20px;
+  height: 20px;
+  border: 5px dotted white;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  animation: rotation 2s linear infinite;
+}
+
+.home-posts {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  border-radius: 5px;
+}

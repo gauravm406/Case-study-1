@@ -1,0 +1,44 @@
+.register-main {
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  gap: 1rem;
+}
+
+.form form input {
+  height: 3rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding-left: 10px;
+  letter-spacing: 0.8px;
+}
+
+.form form button {
+  height: 3rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding-left: 10px;
+  cursor: pointer;
+  letter-spacing: 0.8px;
+}
+
+.nav-btn {
+  background-color: transparent;
+  border: none;
+  color: rgb(29, 155, 240);
+  margin-top: 1rem;
+  cursor: pointer;
+  letter-spacing: 0.8px;
+}

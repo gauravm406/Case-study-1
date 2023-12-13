@@ -1,0 +1,39 @@
+.show-comments-btn {
+  border: none;
+  background-color: transparent;
+  color: rgb(29, 155, 240);
+  cursor: pointer;
+}
+
+.comment-username {
+  font-size: 0.8rem;
+}
+
+.comment-text {
+  font-size: 0.8rem;
+}
+
+.make-comment-form form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.make-comment-form form input {
+  width: 80%;
+  padding-left: 0.5rem;
+  letter-spacing: 0.8px;
+  outline: none;
+  height: 1.5rem;
+  border-radius: 5px;
+  border: 1px solid rgb(29, 155, 240);
+}
+
+.make-comment-form form button {
+  width: 18%;
+  background-color: transparent;
+  color: rgb(29, 155, 240);
+  border-radius: 5px;
+  border: 1px solid rgb(29, 155, 240);
+  cursor: pointer;
+}
